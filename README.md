@@ -8,13 +8,22 @@
 - **Analisi delle Performance**: Calcolo di indicatori chiave (ROI, Sharpe Ratio, Sortino Ratio, Max Drawdown, Win Rate, Profit Factor).
 
 ## 🛠️ Architettura dei Moduli
-- `Data Engine`: Fetching serie storiche e calcolo indicatori tecnici (RSI, SMA/EMA, MACD, ATR).
-- `Strategy Engine`: Regole operative di Buy/Sell e regole di Risk Management.
-- `Strategy Finder`: Algoritmi di ricerca e ottimizzazione parametri (Grid Search, Algoritmi Genetici).
-- `Backtest Engine`: Simulazione barra-per-barra con gestione del portafoglio e costi di transazione.
-- `Analytics & Reporting`: Report dettagliati e grafici prestazionali (Equity Curve, Drawdown).
+- `data_engine.py`: Fetching serie storiche e calcolo indicatori tecnici (RSI, SMA/EMA, MACD, ATR).
+- `strategy_engine.py`: Regole operative di Buy/Sell e regole di Risk Management.
+- `backtest_engine.py`: Simulazione barra-per-barra con gestione del portafoglio e costi di transazione.
+- `strategy_finder.py`: Algoritmi di ricerca e ottimizzazione parametri (Grid Search).
+- `analytics_engine.py`: Report dettagliati, metriche economico-finanziarie e grafici prestazionali (Equity Curve, Drawdown).
+- `main.py`: Punto di ingresso eseguibile da riga di comando per l'intero workflow.
+
+## 📓 Notebook Interattivo
+Tutti i moduli del framework e il flusso di simulazione end-to-end sono disponibili anche in forma interattiva nel Jupyter Notebook:
+- [`ScanTrade.ipynb`](ScanTrade.ipynb)
 
 ## 📦 Installazione e Avvio
 ```bash
+# Esecuzione completa del motore da riga di comando
 python main.py
+
+# Avvio del Jupyter Notebook interattivo
+jupyter notebook ScanTrade.ipynb
 ```
