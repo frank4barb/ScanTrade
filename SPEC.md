@@ -15,3 +15,7 @@ L'obiettivo del progetto è realizzare un programma che cerca (e poi simula) una
 - Modifica: mi descrivi il progetto?
   Dettagli: - Modifica: Richiesta descrizione dettagliata del progetto
   Dettagli: Fornita spiegazione esaustiva dell'architettura e degli obiettivi di ScanTrade e aggiornato `main.py` con una descrizione estesa dei moduli e del flusso operativo del sistema.
+
+- Modifica: mi descrivi il progetto?
+  Dettagli: - Modifica: Richiesta descrizione dettagliata del progetto
+  Dettagli: Fornita spiegazione esaustiva dell'architettura e degli obiettivi di ScanTrade e aggiornato `main.py` e `README.md` con la panoramica sui moduli del sistema.
